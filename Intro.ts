@@ -3,3 +3,4 @@ let emaiid = "Surya@gmail.com"
 
 console.log(biodata);
 console.log("Surya");
+console.log(2+2);
