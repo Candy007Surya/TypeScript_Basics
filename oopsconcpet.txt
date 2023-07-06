@@ -1,0 +1,4 @@
+//here this doc help us to how classes can be created anbd all the oops with steps
+
+visit this site for all the synatx and definations :--- https://www.typescriptlang.org/docs/
+

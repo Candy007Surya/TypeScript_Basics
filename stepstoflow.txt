@@ -1,0 +1,27 @@
+tsc :-TypeScript Compiler
+
+Steps to create an project 
+1.tsc -- init :--->To initialize a TypeScript project, it simply creates an config file tsconfig.json
+2.npm init -y :---->command will initialize a project and create the package. json file.
+3.Create an index.html file and in that just put ! and enter a simple body is creates in it[ here create script which language]
+4.mkdir src
+5.mkdir dist :---> this src source file and dist in distrubance which we use in production 
+
+
+Step2 :-
+1.create a new file in src with index.ts where we write our code in it 
+Note :- in dist where automaticallhy index.js is created or we can creat wemanually too 
+2.now the index.html file go there and linkup the index.js which we created in dist like "./dist/index.js"
+Note1:- In genreal what ever we created in .ts file has to convert into .js file it has to happen automatically to make it automatically
+open the tsconfig.json file and  and uncommenct the "outdir" and make it as  like this :-- "outDir": "./dist",
+3. tsc -w :--> it means it will run in watch mode [ this helps to create automatic js file in dist floder]
+
+Step3 :-
+1.we can open index.html either by double or by server calling here we are treating it as server and below packages need for it 
+npm i lite-server :---> is to add the "lite-server" package as a development dependency to your Node.js project. The "lite-server" is a lightweight development server that is useful for testing and previewing web applications during development
+2.now open the index.html with right click open with love serve [ if no option then add from extension]
+3.if we dnot want to install extension then open package.json file under script put  "start":"lite-server", and from the terminal give
+as npm start:-- command to run it 
+
+-------------------------------------by here end to end configure setup is done[basic part] --------------------------------------------------------------------------------------------
+
